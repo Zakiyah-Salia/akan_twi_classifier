@@ -50,7 +50,7 @@ def download_model():
     if not os.path.exists(MODEL_PATH):
         logger.info(f"📥 Downloading original .keras model...")
         try:
-            gdown.download(f"https://drive.google.com/uc?id={FILE_ID}", MODEL_PATH, quiet=False)
+            gdown.download(id=FILE_ID, MODEL_PATH, quiet=False)
             logger.info("✅ Model downloaded.")
             return True
         except Exception as e:
