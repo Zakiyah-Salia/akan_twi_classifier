@@ -44,7 +44,7 @@ class_names = list(twi_translations.keys())
 # The .h5 detour is over.
 # ==============================================================================
 MODEL_PATH = "fine_tuned_model_3.0.keras"
-FILE_ID = "1Zt6Fg4PeQx9WPIXXWzwQTP4FhczpZ3L9" # The very first ID we started with
+FILE_ID = "1gdfeYaa8X66J4IG9t830DKUK5LcIqfJO" # The very first ID we started with
 
 def download_model():
     if not os.path.exists(MODEL_PATH):
